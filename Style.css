@@ -1,0 +1,245 @@
+body {
+    background: rgb(10, 25, 47);
+    padding-top: 1em;
+    display: block;
+}
+
+#circle {
+    width: 200px;
+    height: 200px;
+    background-image: url("Foto.jpeg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    margin-left: 150px;
+    margin-top: 60px;
+}
+
+.typewriter h1 {
+    box-sizing: border-box;
+    color: #ccd6f6;
+    display: block;
+    font-weight: 400;
+    font-family: "NTR", sans-serif;
+    font-size: 46px;
+    height: auto;
+    text-align: left;
+    margin-left: 150px;
+    text-size-adjust: 100%;
+    width: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    / letter-spacing: .5em;
+    animation: typing 4.5s steps(80, end), blink-caret .75s step-end infinite;
+}
+
+.I h2 {
+    box-sizing: border-box;
+    color: #ccd6f688;
+    display: block;
+    font-weight: 300;
+    font-family: "NTR", sans-serif;
+    font-size: 28px;
+    height: 42px;
+    line-height: 42px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    text-align: left;
+    margin-left: 150px;
+    text-size-adjust: 100%;
+    visibility: visible;
+    width: 485px;
+}
+
+span {
+    color: #64ffdb;
+    font-weight: 400;
+    font-family: "NTR", sans-serif;
+    font-size: 46px;
+}
+
+.description h3 {
+    box-sizing: border-box;
+    color: #ccd6f688;
+    display: block;
+    font-weight: 400;
+    font-family: "NTR", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    max-width: none;
+    padding-bottom: 15px;
+    text-align: justify;
+    margin-left: 150px;
+    margin-right: 200px;
+    text-size-adjust: 100%;
+    visibility: visible;
+}
+
+small {
+    font-family: "NTR", sans-serif;
+    font-size: 20px;
+
+}
+
+.flex-container {
+    font-family: "NTR", sans-serif;
+    margin-left: 150px;
+    color: #64ffdb font-size: 45px;
+    font-weight: 400;
+    display: flex;
+    align-items: flex-start
+}
+
+a {
+    text-decoration: none;
+    color: #64ffdb
+}
+
+a:visited {
+    text-decoration: none;
+    color: #64ffdb
+}
+
+span {
+    color: #64ffdb font-weight: 700;
+    font-family: "NTR", sans-serif;
+}
+
+.lkge {
+    color: #64ffdb;
+    font-weight: 700;
+    font size: 28px;
+    font-family: "NTR", sans-serif;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 100%
+    }
+}
+
+.blinking-cursor {
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+}
+
+@keyframes "blink" {
+
+    from,
+    to {
+        color: transparent;
+    }
+
+    50% {
+        color: #64ffdb;
+    }
+}
+
+@-moz-keyframes blink {
+
+    from,
+    to {
+        color: transparent;
+    }
+
+    50% {
+        color: #64ffdb;
+    }
+}
+
+@-webkit-keyframes "blink" {
+
+    from,
+    to {
+        color: transparent;
+    }
+
+    50% {
+        color: #64ffdb;
+    }
+}
+
+@-ms-keyframes "blink" {
+
+    from,
+    to {
+        color: transparent;
+    }
+
+    50% {
+        color: #64ffdb;
+    }
+}
+
+@-o-keyframes "blink" {
+
+    from,
+    to {
+        color: transparent;
+    }
+
+    50% {
+        color: #64ffdb;
+    }
+
+}
+
+.footer h3 {
+    position: fixed;
+    font-size: 15px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 0, 0, 0);
+    color: #64ffdb;
+    text-align: right;
+    margin-right: 5%;
+    width: 95%;
+
+
+}
+
+.about h1 {
+    margin-top: 150px;
+    box-sizing: border-box;
+    color: #ccd6f6;
+    display: block;
+    font-weight: 400;
+    font-family: "NTR", sans-serif;
+    font-size: 46px;
+    height: auto;
+    text-align: left;
+    margin-left: 150px;
+    text-size-adjust: 100%;
+    width: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    / letter-spacing: .5em;
+}
+
+.aboutDescr h2 {
+    box-sizing: border-box;
+    color: #ccd6f688;
+    display: block;
+    font-weight: 400;
+    font-family: "NTR", sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    max-width: none;
+    padding-bottom: 15px;
+    text-align: justify;
+    margin-left: 150px;
+    margin-right: 200px;
+    text-size-adjust: 100%;
+    visibility: visible;
